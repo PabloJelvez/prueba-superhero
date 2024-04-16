@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;;
+   
+}
+/* Body */
+body{
+    background-image: url(../img/fondo-estilo-comic-plano_23-2148794906.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+/* Navbar */
+#nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbar-brand{
+    color: #ffc229;
+}
+
+/* Header */
+.imgHeroHeader{
+    width: 40%;
+    height: auto;
+}
+
+/* Main */
+.container{
+    margin-bottom: 150px;
+}
+
+/* Section form */
+.formSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-image: repeating-conic-gradient(
+        from 0deg,
+        orangered,
+        transparent 10deg,
+        orange 10deg,
+        orangered 20deg
+      );
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-color: orange;
+}
+.form-label{
+    font-size: 26px;
+}  
+.custom-tooltip {
+    --bs-tooltip-bg: black;
+    --bs-tooltip-color: rgb(51, 164, 235);
+  }
+.inputForm{
+    padding: 10px;
+    margin: 10px auto;
+    width: 60vw;
+}
+
+.btnHero {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-color: #FF5858;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .btnHero:hover {
+    transform: translateY(-10px);
+    background-color: #FF5858;
+  }
+  
+  .btnHero::after {
+    transform: translateY(0);
+  }
+
+/* Section Hero */
+.sectionHero{
+    display: none;
+    justify-content: space-evenly;
+}
+
+/* Card */
+.card{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 500px;
+    background-color: #ffc229;
+}
+.imgHero{
+    width: 30%;
+    height: auto;
+} 
+
+/* Grafico */
+.graficoHero{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 500px;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: #ffc229;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
